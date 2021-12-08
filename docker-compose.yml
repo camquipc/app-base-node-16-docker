@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  app:
+    image: node-api2
+    container_name: nodeapi
+    build: ./
+    restart: always
+    volumes:
+      - ./:/app
+    ports:
+      - "5000:5000"
+    environment:
+      - HOST=0.0.0.0
+      - PORT=5000   

@@ -1,0 +1,26 @@
+{
+  "name": "app-base-node-16-docker",
+  "version": "1.0.0",
+  "description": "App base de NODEJS v16 en Docker Container",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camquipc/app-base-node-16-docker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camquipc/app-base-node-16-docker/issues"
+  },
+  "homepage": "https://github.com/camquipc/app-base-node-16-docker#readme"
+}
